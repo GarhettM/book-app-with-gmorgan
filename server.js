@@ -26,5 +26,12 @@ app.get('/', (req, res) => {
 
 app.post('/searches/new', (req, res) => res.render('/pages/searches/new.ejs'));
 
+app.get('/searches/show', (req, res) => {
+  const url = 'https://www.googleapis.com/books/v1/volumes'
+
+  const superQuery 
+
+})
+
 
 app.listen(PORT, console.log(`we runnin cool runnins @ ${PORT}`));
